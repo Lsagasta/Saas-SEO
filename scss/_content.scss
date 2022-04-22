@@ -12,6 +12,7 @@
 			&:hover{ transform: scale(1.02);
 				transform: translate(2%, -2%);
 				background-color: #231a24;
+				cursor: pointer;
 				
 									}
 	}
@@ -20,7 +21,9 @@
 		@extend .card;
 		&:hover{ transform: scale(1);
 				transform: translate(0%, -0%);
-				background-color: #5a4894;}
+				background-color: #5a4894;
+				padding: auto;
+				cursor: default;}
 	}
 
 

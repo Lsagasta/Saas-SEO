@@ -8,6 +8,14 @@ $w-25:25%;
 $w-50:50%;
 $w-15:15%;
 
+.teamLogo{
+	
+	max-width: 40px;
+    max-height: 40px;
+    width: auto;
+    height: auto;
+}
+
 $cv: #231a24;
 $w: white;
 
@@ -46,5 +54,9 @@ padding: 4px 20 px;
 p{@include texto(1em,white)}
 
 h5{@include texto(1.6em,#D7D29C)}
+
+.LNot{
+	text-decoration: none;
+}
 
 

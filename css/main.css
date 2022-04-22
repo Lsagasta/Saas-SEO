@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@400;600;800&display=swap");
+.teamLogo {
+  max-width: 40px;
+  max-height: 40px;
+  width: auto;
+  height: auto; }
+
 .bg-celeste {
   background-color: #5EBDAA; }
 
@@ -21,6 +27,9 @@ h5 {
   color: #D7D29C;
   padding: 4px 20 px; }
 
+.LNot {
+  text-decoration: none; }
+
 .barrita {
   padding: 0 30px;
   position: sticky;
@@ -41,7 +50,7 @@ h5 {
         color: white; }
         .barrita ul li a:hover {
           transform: translate(10%, -10%);
-          color: #231a24; }
+          color: #5a4894; }
 
 .conten {
   padding: 0 30px;
@@ -54,11 +63,14 @@ h5 {
     .conten .card:hover, .conten .card-noHover:hover {
       transform: scale(1.02);
       transform: translate(2%, -2%);
-      background-color: #231a24; }
+      background-color: #231a24;
+      cursor: pointer; }
   .conten .card-noHover:hover {
     transform: scale(1);
     transform: translate(0%, 0%);
-    background-color: #5a4894; }
+    background-color: #5a4894;
+    padding: auto;
+    cursor: default; }
 
 .foot {
   background-color: #000000;
